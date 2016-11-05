@@ -1,0 +1,8 @@
+1.提示：更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支。
+提示：再次推送前，先与远程变更合并（如 'git pull ...'）。详见
+
+解决方案：需要先获取远端更新与本地合并，再git push
+具体操作:
+git remote add origin https://*********   或者 ssh的地址
+git fetch origin    //获取远程更新
+git merge origin/master      //把更新的内容合并到本地分支

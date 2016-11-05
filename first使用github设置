@@ -1,0 +1,18 @@
+1.检查是否有ssh key
+$cd ~/.ssh
+
+2.生成一个新的ssh
+$ssh-keygen -t rsa -C "email" 
+生成了两个文件id_rsa.pub    id_rsa
+
+3.把id_rsa.pub的内容放到github公钥里面
+
+4.测试ssh
+$ssh -T git@github.com
+一直回车
+
+5.终端输入
+
+git config --global user.name "username"    
+git config --global user.email "email"
+
