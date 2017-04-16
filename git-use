@@ -1,0 +1,19 @@
+查看当前文件状态
+
+$git status      //可以查看文件的状态，是否缓存，是否已经推送...
+
+$git init        //对本地仓库初始化
+
+$git add         //对文件跟踪
+
+$git commit      //提交更新，推送到远程仓库
+
+$git commit -m "...."     //对更新进行说明
+
+$git commit -a            //直接把所有跟踪过得文件暂存起来一并提交
+
+$git rm --file            //删除文件
+
+$git log            //显示日志
+
+$git log -p -number      //展开每次提交的内容差异，用-number 显示最近的跟新次数。
