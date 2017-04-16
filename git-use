@@ -31,3 +31,5 @@ origin
 name2
 
 $git mv name1 name2        //修改文件的名称
+
+$git rm file            //取消跟踪文件（删除远程仓库的文件）
