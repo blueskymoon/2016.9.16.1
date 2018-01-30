@@ -13,5 +13,13 @@ git add ...
 git commit -m "----"
 git push -u origin master
 
-
+3.设置ssh密钥
+cd ~/.ssh
+检查是否有pub
+if(pub!=NULL)
+    ssh-keygen
+{
+    第一个输入的是名字
+        后两个是密码可以不输入
+}
 
