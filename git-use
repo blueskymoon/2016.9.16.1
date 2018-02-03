@@ -12,6 +12,10 @@ $git commit -m "...."     //对更新进行说明
 
 $git commit -a            //直接把所有跟踪过得文件暂存起来一并提交
 
+$git branch             //查看版本
+
+$git branch -d <branchname>         //删除分支
+
 $git rm --file            //删除文件
 
 $git log            //显示日志
