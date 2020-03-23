@@ -16,3 +16,18 @@ $ssh -T git@github.com
 git config --global user.name "username"    
 git config --global user.email "email"
 
+6.手动解决冲突
+question：fatal: You have not concluded your merge (MERGE_HEAD exists). Please, commit your changes before you
+solve：git merge --abort   //中止合并
+git reset --merge     	   //撤销合并
+git pull		   //拉取代码
+如果问题没有解决：
+$ git merge ***
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+手动修改冲突的文件，选择需要保留的文字与分支相同即可。使用vim编辑器，并且冲突的文件里面有对比，之后再进行git add *** git commit -m "already fix issue" git push orage master
+
+相关比较好的博客：
+https://blog.csdn.net/think2me/article/details/39927049
